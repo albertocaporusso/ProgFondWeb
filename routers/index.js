@@ -6,6 +6,6 @@ const usersRouter = require('./users');
 const router = express.Router();
 router.use('/api/v1/orders', ordersRouter);
 router.use('/api/v1/menu', foodsRouter);
-router.use('/api/v1/registration', usersRouter);
+router.use('/api/v1/users', usersRouter);
 
 module.exports = router;
